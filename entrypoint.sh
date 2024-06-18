@@ -12,4 +12,5 @@ fi
 
 firebase deploy \
     -m "${GITHUB_SHA}" \
+    --token ${FIREBASE_TOKEN} \
     --project ${FIREBASE_PROJECT}
